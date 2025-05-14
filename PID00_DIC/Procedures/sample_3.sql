@@ -1,0 +1,5 @@
+CREATE OR REPLACE PROCEDURE sample_proc_3 IS
+BEGIN
+  DBMS_OUTPUT.PUT_LINE('Sample procedure 3');
+END;
+/

@@ -1,7 +1,7 @@
 #!/bin/bash
 
-schemas=("PID00_DSA" "PID00_DM0" "PID00_REPORTS")
-folders=("Tables" "Views" "MaterializedViews" "Packages" "Procedures" "Functions" "Triggers" "Data" "Migrations")
+schemas=("PID00_DSA" "PID00_DM0" "PID00_REPORTS" "SAS_DATA" "PID00_POWERBI" "PID00_ODS" "RHB" "PID00_DIC" "PID00_PCE")
+folders=("Tables" "Views" "MaterializedViews" "Packages" "Procedures" "Functions" "Triggers" "Data")
 
 echo "📁 Tworzenie struktury katalogów dla repozytorium mbhd-oracle..."
 

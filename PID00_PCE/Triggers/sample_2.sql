@@ -1,0 +1,7 @@
+CREATE OR REPLACE TRIGGER trg_sample_2
+BEFORE INSERT ON sample_table_2
+FOR EACH ROW
+BEGIN
+  :NEW.created_at := SYSDATE;
+END;
+/
